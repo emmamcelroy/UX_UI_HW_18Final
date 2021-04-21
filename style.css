@@ -1,28 +1,26 @@
-inline-block{
+.inline-block{
     display: inline-block;
     vertical-align: top;
 }
 .logo{
+    width: 23%;
     Padding: 1%;
-    Text-Align: Center;
 }
-.Navigation{
+nav{
     Width: 73%;
     Padding: 1%;
 }
-ul{
+nav ul{
     Width: 50%;
     Margin-Left: Auto;
 }
 .logo{
     Text-Align: Center;
 }
-
 .Inline-block {
     Width: 50%;
     Margin-left: Auto;
 }
-
 .heroimage{
     Height: 600px;
     Padding: 25px;
@@ -31,7 +29,12 @@ ul{
     Width: 500px; 
     Margin: 0 auto;
 }
-.footer{
+footer{
     Background-color: #373738;
-    Padding: Center;  
+    padding: center;
+}
+.footer ul{
+    Display: inline-block;
+    Vertical-align: top; 
+    padding: center; 
 }
