@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html>
+    <title></title>
     <head>
-            <link rel="stylesheet" href="CSS/style.css">
-        <title></title>
+        <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header class= "Navigation">
-            <div class= "inline-block Logo">
-                <img src= "Images/Screen Shot 2021-04-18 at 1.12.53 PM.png">
-            </div>
-            <nav class= "inline-block">
-                <ul>
-                    <li> About</li>
-                    <li> Skills</li>
-                    <li>Work</li>
-                </ul>
-            </nav>
-        </header>
-    <section class= "heroImg">
-        <div class= "Content">
-            <img src= "Images/16463747_1362947553757582_8752002587053535833_o.jpg">
+        <header>
+            <img src="Images/logo.png">
+            <ul>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Work</li>
+                <li>Contact</li>
+            </ul>
+           </header>
+    <section class="heroImg">
+        <div class="Content">
+            <img src="Images/headshot.jpg">
+            <h1> I'm Emma McElroy</h1>
             <p>
                 I am a freelance UX/UI designer. I specialize in online marketing and enjoy solving user problems through direct communication. My skills include Figma, Microsoft Excel, empathetic conversations, and varying customer service jobs. </p>
             </p>
@@ -27,13 +25,52 @@
                 Download Resume
             </button>
         </div>
+    </section>
+      <!-- My UX Skills Section Coded using CSS Flex-->
+         <section class="flexContainer">
+            <h1 class="heading">My Skills</h1>
+             <div> 
+                 <h3>Research:</h3>
+                     <p> - Web Analytics</p>
+                     <p> - Data Synthesis and Analysis</p>
+            </div>
+                <div>
+                  <h3> UI Designs: </h3>
+                  <p> - Data Visualization</p>
+                  <p> - Sitemapping</p>
+                  <p> - Mockups</p>
+            </div>
+             <div class="GraphicDesign">
+                 <h3> Graphic Design: </h3>
+                 <p> - Branding</p>
+                 <p> - Creativity</p>
+                 <p> - Photography</p>
+         </div>
+        </section>
+<!--My Work Section Constructed using CSS Grid-->
+        <section class="myWork">
+            <h1 class="heading">My Work</h1>
+            <div class="workGrid">
+                <div class="Project1">
+                <h4>Fitnesse</h4>
+                <p>Challenged to come up with an app enhance everyday life, Fitnesse was created as a workout for our mind and social life. Combining what if often dreaded, working out, and what is needed socialization.    
+                </p>
+                <button> Read More</button>
+                <div></div>
+                <div class="Project2">
+            <h4> Helping Paws</h4>
+            <p> Helping Paws is a nonprofit that trains and matches people with disabilities service dogs. </p>
+            <button> Read More</button>
+            </div>
+        <h3>View All Projects 
+        </h3>
+        </section>
     <footer>
         <ul>
-            <li> About</li>
-            <li> Skills</li>
+            <li>About</li>
+            <li>Skills</li>
             <li>Contact</li>
         </ul>
     </footer>
-    </section>
     </body>
 </html>

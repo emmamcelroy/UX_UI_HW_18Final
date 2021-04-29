@@ -1,40 +1,84 @@
-.inline-block{
-    display: inline-block;
-    vertical-align: top;
-}
-.logo{
-    width: 23%;
-    Padding: 1%;
-}
-nav{
-    Width: 73%;
-    Padding: 1%;
-}
-nav ul{
-    Width: 50%;
-    Margin-Left: Auto;
-}
-.logo{
-    Text-Align: Center;
-}
-.Inline-block {
-    Width: 50%;
-    Margin-left: Auto;
-}
-.heroimage{
-    Height: 600px;
-    Padding: 25px;
-}
-.Content{
-    Width: 500px; 
-    Margin: 0 auto;
-}
-footer{
-    Background-color: #373738;
-    padding: center;
-}
-.footer ul{
-    Display: inline-block;
-    Vertical-align: top; 
-    padding: center; 
-}
+header{
+    background-color: #a98f54;
+    padding: 15px;
+    }
+    header ul{
+        float:right;
+        color: white;
+        font-size: 50px;
+        text-align: justify;
+    }
+    header li{
+        display: inline-block;
+        padding: 0px 5px;
+    }
+    header img{
+        height: 300px;
+        width: 300px;
+    }
+    .heroImg img{
+        width: 500px;
+        height: 500px;
+        padding: 15px 100px;
+    }
+    .Content{
+        padding-top: 50px;
+    }
+    .Content h1{
+        font-size:15mm;
+        text-align:line;
+        width: 500px;
+    }
+    .Content p{
+        font-size:10mm;
+    
+    }
+    .heading{
+        text-align: left;
+        font-size:30px;
+        padding-left: 5px;
+    }
+    footer{
+        Background-color: #a98f54;
+        padding: 5px;
+        color: white;
+    }
+    footer li{
+        display:inline;
+        padding: 10px;
+    }
+    button{
+        color:white;
+        background-color: #2C3639;
+        padding: 10px 15px;
+    }
+    /*My Skills Section */
+    .flexContainer{
+        display: flex;
+        padding: 90px 20px;
+        padding-top: 20px;
+        background-color: #DCDEDC;
+    }
+    .flexContainer div{
+        width: 50%;
+        padding: 30px;
+        font-size: 22px; 
+    }
+    /*My Work Section */
+    .myWork{
+        padding: 40px 60px;
+        padding-top: 0px;
+        padding-left: 20px;
+        background-color: #DCDEDC;
+    }
+    .workGrid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 400 400;
+    }
+    @media only screen and (max-width: 600){
+        #categoryGrid {
+            grid-template-rows: 300 300 300;
+            grid-template-columns: 1fr;
+        }
+    }
